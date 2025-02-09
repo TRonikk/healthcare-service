@@ -27,7 +27,10 @@ public class PatientInfo {
         this.healthInfo = healthInfo;
     }
 
-    public PatientInfo(String name, String surname, LocalDate birthday, HealthInfo healthInfo) {
+    public PatientInfo(String name,
+                       String surname,
+                       LocalDate birthday,
+                       HealthInfo healthInfo) {
         this(null, name, surname, birthday, healthInfo);
     }
 
